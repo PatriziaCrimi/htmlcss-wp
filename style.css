@@ -95,6 +95,7 @@ aside.left .box a {
   color: #99cc33;
   display: block;
   padding: 5px;
+  line-height: 25px;
 }
 
 #search {
@@ -206,4 +207,33 @@ main hr {
 footer {
   background-color: white;
   height: 100px;
+}
+
+#credits {
+  float:left;
+  font-size: 14px;
+  color: #504741;
+  height: 100px;
+  padding: 30px;
+  margin-left: 20px;
+}
+
+#credits div {
+  margin-bottom: 5px;
+}
+
+#credits span {
+  color: grey;
+}
+
+#icons {
+  float: right;
+  font-size: 18px;
+  color: lightgrey;
+  line-height: 100px;
+  margin-right: 50px;
+}
+
+#icons i {
+  margin-left: 10px;
 }
