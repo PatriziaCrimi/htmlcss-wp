@@ -147,13 +147,61 @@ main {
   width: calc(60% - 40px);
   float: left;
   margin: 0 20px 10px;
-  padding: 30px;
 }
 
 main h3 {
   text-transform: uppercase;
   color: #504741;
+  padding: 20px;
+  font-size: 30px;
 }
+
+main i {
+  margin-left: 20px;
+  color: grey;
+}
+
+#date {
+  color: grey;
+  margin-bottom: 10px;
+}
+
+#author, #comments, span.green {
+  color: #99cc33;
+}
+
+main img {
+  width: 100%;
+  margin: 30px 0 30px;
+}
+
+main p {
+  text-align: justify;
+  color: #504741;
+  padding: 0 30px 0;
+}
+
+#category_tag {
+  background-color: #F9F9F9;
+  width: 90%;
+  margin: 30px auto 30px;
+  border-radius: 2px;
+  color: grey;
+  padding: 10px;
+  font-size: 14px;
+}
+
+#category, #tags {
+  display: inline-block;
+}
+
+main hr {
+  color: lightgrey;
+  margin: 30px auto 50px;
+  width: 90%;
+
+}
+
 /* Footer */
 footer {
   background-color: white;
