@@ -1,0 +1,161 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: sans-serif;
+}
+
+body {
+  background-image: url('https://organicthemes.com/demo/natural-lite/wp-content/themes/natural-lite/images/default-pattern.png');
+}
+
+#page_wrapper {
+  width: 80%;
+  margin: auto;
+}
+
+/* Header */
+header {
+  background-image: url('https://organicthemes.com/demo/natural-lite/wp-content/themes/natural-lite/images/default-header.jpg');
+  background-position:center;
+  margin-top: 20px;
+  border: 8px solid white;
+  text-transform: uppercase;
+  text-align: center;
+  padding: 50px 0 50px;
+}
+
+header h1 {
+  color: white;
+  margin-bottom: 7px;
+}
+
+header h2 {
+  font-size: 15px;
+  font-weight: normal;
+  color: rgba(255, 255, 255, 0.7);
+}
+
+/* Nav */
+nav {
+  background-color: #514741;
+  margin-bottom: 20px;
+}
+
+nav ul {
+  text-align: center;
+}
+
+nav li {
+  text-transform: uppercase;
+  list-style-type: none;
+  display: inline-block;
+}
+
+nav a {
+  text-decoration: none;
+  color: rgba(255, 255, 255, 0.7);
+  height: 50px;
+  line-height: 50px;
+  padding: 0 10px;
+}
+
+/* Central part */
+#container::after {
+  content: '';
+  display: table;
+  clear: both;
+}
+
+/* Aside Left */
+aside {
+  width: 20%;
+  float: left;
+}
+
+aside .box {
+  width: 100%;
+  background-color: white;
+  padding: 20px;
+  margin-bottom: 20px;
+  border-radius: 2px;
+}
+
+aside .box h4 {
+  font-weight: normal;
+  margin-bottom: 15px;
+}
+
+aside.left .box li {
+  list-style-type: none;
+}
+
+aside.left .box a {
+  text-decoration: none;
+  color: #99cc33;
+  display: block;
+  padding: 5px;
+}
+
+#search {
+  content: '';
+  display: table;
+  clear: both;
+}
+
+#search_bar {
+  padding: 10px;
+  border: 1px solid rgba(0, 0, 0, 0.12);
+  background: rgba(0, 0, 0, 0.04);
+  color: #999999;
+  width: calc(75% - 10px);
+  float: left;
+  margin-right: 10px;
+}
+
+#search_button {
+  background-color: #514741;
+  color: rgba(255, 255, 255, 0.7);
+  padding: 10px;
+  border: 1px solid rgba(0, 0, 0, 0.12);
+  border-radius: 2px;
+  width: 25%;
+  float: left;
+}
+
+aside.right .box a {
+  text-decoration: none;
+  color: #99cc33;
+  font-size: 12px;
+}
+
+#hiking {
+  font-size: 20px;
+}
+
+#nature {
+  font-size: 27px;
+}
+
+aside.right .box {
+  text-align: justify;
+}
+
+/* Main */
+main {
+  background-color: white;
+  width: calc(60% - 40px);
+  float: left;
+  margin: 0 20px 10px;
+  padding: 30px;
+}
+
+main h3 {
+  text-transform: uppercase;
+  color: #504741;
+}
+/* Footer */
+footer {
+  background-color: white;
+  height: 100px;
+}
