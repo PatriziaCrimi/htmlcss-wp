@@ -58,6 +58,7 @@ nav li {
   text-transform: uppercase;
   list-style-type: none;
   display: inline-block;
+  margin-left: -4px;
   border-right: 1px solid rgba(0, 0, 0, .4);
 }
 
