@@ -8,32 +8,36 @@
   </head>
   <body>
     <div id="page_wrapper">
+      <!-- Header -->
       <header class="shadow">
         <h1>Natural lite</h1>
         <h2>Just another organic themes demo sites site</h2>
       </header>
-
+      <!-- Nav -->
       <nav class="shadow">
-        <ul>
-          <li>
-            <a href="#">Home</a>
-          </li>
-          <li>
-            <a class="dropdown_item" href="#">About</a>
-          </li>
-          <li>
-            <a class="dropdown_item" href="#">Templates</a>
-          </li>
-          <li>
-            <a href="#">Blog</a>
-          </li>
-          <li>
-            <a href="#">Contact</a>
-          </li>
-        </ul>
+        <div class="nav-wrapper">
+          <ul>
+            <li>
+              <a href="#">Home</a>
+            </li>
+            <li>
+              <a class="dropdown_item" href="#">About</a>
+            </li>
+            <li>
+              <a class="dropdown_item" href="#">Templates</a>
+            </li>
+            <li>
+              <a href="#">Blog</a>
+            </li>
+            <li>
+              <a href="#">Contact</a>
+            </li>
+          </ul>
+        </div>
       </nav>
-
-      <div id="container">
+<!-- ********** START - CENTRAL PART ASIDE-MAIN ********** -->
+      <div id="container-aside-main">
+        <!-- Aside Left -->
         <aside class="left">
           <div class="box shadow">
             <h4>Pages</h4>
@@ -86,30 +90,33 @@
             </ul>
           </div>
         </aside>
-
+        <!-- Main -->
         <main class="shadow">
-          <div class="main-top">
+          <!-- Main Top -->
+          <div id="main-top">
             <h3>Outdoor wear for the winter hiker</h3>
-            <div id="date">
+            <div class="date">
               <i class="far fa-calendar-alt"></i>
               <span>Posted on January 13, 2016 by</span>
-              <span id="author">David Morgan<span>
-              </div>
-              <div id="comments">
-                <i class="fas fa-comment"></i>
-                <span>2 Comments</span>
-              </div>
+              <span class="author">David Morgan<span>
+            </div>
+            <div class="comments">
+              <i class="fas fa-comment"></i>
+              <span>2 Comments</span>
+            </div>
           </div>
+          <!-- Wallpaper -->
           <img src="img/img.jpg" alt="landscape">
-          <div class="main-bottom">
+          <!-- Main Bottom -->
+          <div id="main-bottom">
             <p>Natural Lite is a beautiful free theme for WordPress created by Organic Themes. It’s a perfect theme for business websites with a focus on the environment. Whether you’re providing fishing charters or surf adventures, promoting local farmers markets or saving the whales, offering vegetarian…</p>
-            <div id="category_tag">
-              <div id="category">
+            <div class="category-tag">
+              <div class="category">
                 <i class="fas fa-th"></i>
                 <span>Category: </span>
                 <span class="green">Blog, Category, Featured</span>
               </div>
-              <div id="tags">
+              <div class="tags">
                 <i class="fas fa-tag"></i>
                 <span>Tags: </span>
                 <span class="green">apparel, hiking</span>
@@ -118,41 +125,82 @@
             <hr>
           </div>
         </main>
-
+        <!-- Aside Right -->
         <aside class="right">
           <div class="box shadow">
             <div id="search">
-              <input type="text" id="search_bar" placeholder="Search Here...">
-              <button type="button" name="button" id="search_button">
-                Go
-              </button>
+              <input type="text" id="search-bar" placeholder="Search Here ...">
+              <button type="button" name="button" id="search-button">Go</button>
             </div>
           </div>
           <div class="box shadow">
             <h4>Tag Cloud</h4>
-            <a href="#">adventure</a>
-            <a href="#">apparel</a>
-            <a href="#">couples</a>
-            <a href="#">drive</a>
-            <a href="#">extreme</a>
-            <a href="#">fashion</a>
-            <a id="hiking" href="#">hiking</a>
-            <a href="#">hippie</a>
-            <a href="#">mountains</a>
-            <a id="nature" href="#">nature</a>
-            <a href="#">outdoors</a>
-            <a href="#">road</a>
-            <a href="#">trip</a>
-            <a href="#">snowboarding</a>
-            <a href="#">sports</a>
-            <a href="#">stories</a>
-            <a href="#">styles</a>
-            <a href="#">tales</a>
-            <a href="#">trails</a>
+            <div class="links">
+              <ul>
+                <li>
+                  <a href="#">adventure</a>
+                </li>
+                <li>
+                  <a href="#">apparel</a>
+                </li>
+                <li>
+                  <a href="#">couples</a>
+                </li>
+                <li>
+                  <a href="#">drive</a>
+                </li>
+                <li>
+                  <a href="#">extreme</a>
+                </li>
+                <li>
+                  <a href="#">fashion</a>
+                </li>
+                <li>
+                  <a id="hiking" href="#">hiking</a>
+                </li>
+                <li>
+                  <a href="#">hippie</a>
+                </li>
+                <li>
+                  <a href="#">mountains</a>
+                </li>
+                <li>
+                  <a id="nature" href="#">nature</a>
+                </li>
+                <li>
+                    <a href="#">outdoors</a>
+                </li>
+                <li>
+                  <a href="#">road</a>
+                </li>
+                <li>
+                  <a href="#">trip</a>
+                </li>
+                <li>
+                  <a href="#">snowboarding</a>
+                </li>
+                <li>
+                  <a href="#">sports</a>
+                </li>
+                <li>
+                  <a href="#">stories</a>
+                </li>
+                <li>
+                  <a href="#">styles</a>
+                </li>
+                <li>
+                  <a href="#">tales</a>
+                </li>
+                <li>
+                  <a href="#">trails</a>
+                </li>
+              </ul>
+            </div>
           </div>
         </aside>
       </div>
-
+<!-- ********** END - CENTRAL PART ASIDE-MAIN ********** -->
+      <!-- Footer -->
       <footer class="shadow">
         <div id="credits">
           <small>
@@ -163,13 +211,28 @@
           </small>
         </div>
         <div id="icons">
-          <i class="fab fa-facebook"></i>
-          <i class="fab fa-twitter"></i>
-          <i class="fab fa-linkedin-in"></i>
-          <i class="fab fa-google-plus-g"></i>
-          <i class="fas fa-map-marker-alt"></i>
-          <i class="fab fa-tiktok"></i>
-          <i class="fas fa-envelope"></i>
+          <ul>
+            <li>
+              <i class="fab fa-facebook"></i>
+            </li>
+            <li>
+              <i class="fab fa-twitter"></i>
+            </li>
+            <li>
+              <i class="fab fa-linkedin-in"></i>
+            </li>
+            <li>
+              <i class="fab fa-google-plus-g"></i>
+            </li>
+            <li>
+              <i class="fas fa-map-marker-alt"></i>
+            </li>
+            <li>
+              <i class="fab fa-tiktok"></i>
+            <li>
+              <i class="fas fa-envelope"></i>
+            </li>
+          </ul>
         </div>
       </footer>
     </div>
